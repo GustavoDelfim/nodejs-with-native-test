@@ -1,0 +1,9 @@
+MOCK:
+  - mock é o objecto necessário para o teste funcionar
+
+STUB:
+  - stub serve para interceptar chamadas externas (DB, API Externa, etc)
+    - garantir que o nosso teste será OFFLINE (Sem sustem, sem internet, sem memória)
+
+SPY:
+  - spy é um tipo de stub, mas é usado para validar como a função foi chamada, com quais parametros e quantas vezes.

@@ -1,0 +1,13 @@
+{
+  "name": "testes-sem-frameworks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "npx nodemon src/index.test.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
